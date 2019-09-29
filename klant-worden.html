@@ -65,10 +65,11 @@
                     </div>
                     <div class="col-12 col-md-10 d-none d-xl-block">
                         <nav class="site-navigation position-relative text-right" role="navigation">
-                            <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                                <li><a href="index.html" class="nav-link ">Home</a>
+                            <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ">
+                                <li><a href="index.html" class="nav-link">Home</a>
                                 </li>
-                                <li class="nav-link has-children active-link"><a href="producten.html">Producten</a>
+                                <li class="nav-link has-children">
+                                    <a href="producten.html">Producten</a>
                                     <ul class="dropdown">
                                         <li><a href="apps.html" class="nav-link">Apps</a>
                                         </li>
@@ -82,7 +83,7 @@
                                 </li>
                                 <li><a href="over-atencion.html" class="nav-link">Over Atención </a>
                                 </li>
-                                <li><a href="klant-worden.html" class="nav-link">Klant worden </a>
+                                <li><a href="klant-worden.html" class="nav-link active-link">Klant worden </a>
                                 </li>
                                 <li><a href="contact.html" class="nav-link">Contact</a>
                                 </li>
@@ -95,82 +96,64 @@
                 </div>
             </div>
         </header>
-
-        <!--- Voor gasten -->
-        <div class="inner-site-section bg-light">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 mb-4 mb-lg-0 position-relative">
-                        <img src="images/5-appstore-menucategories.png" class="img-fluid" alt="Image">
-                    </div>
-                    <div class="col-md-8 ml-auto">
-                        <h2 class="section-title mb-3">Voor gasten
-                        </h2>
-
-                        <p>De Atención app maakt je bestel-, service- en betaalproces in horecagelegenheden een stuk simpeler, leuker en minder tijdrovend. Met de app neem jij als gast gelijk na binnenkomst de lead in wat en wanneer je wilt bestellen. Door
-                            de handige opties in de app hoef je veel minder te wachten en houd je meer tijd over om te genieten van je horecabezoek.
-                        </p>
-                        <p class="font-weight-bold">Dit kun je met de Atención app:</p>
-                        <p><span class="text-orange font-weight-bold"><i class="fa fa-check"> </i> Check gemakkelijk in bij horecagelegenheden </span></br><em>Scan de QR-code van je tafel of voer de check-in-code in</em></p>
-                        <p><span class="text-orange font-weight-bold"><i class="fa fa-check"> </i> Bekijk direct de actuele menukaart </span></br><em>Filter de menukaart aan de hand van je voorkeuren & eventuele allergieën en kom snel tot een keuze</em></p>
-                        <p><span class="text-orange font-weight-bold"><i class="fa fa-check"> </i> Maak eenvoudig je keuze van de menukaart of vanuit je favorieten</span></br><em>Selecteer (waar van toepassing) je bestelgrootte, bereidingswijze, bijgerechten, etc. en geef je
-								eventuele opmerkingen of wensen door</em></p>
-                        <p><span class="text-orange font-weight-bold"><i class="fa fa-check"> </i> Plaats je bestelling wanneer jij dat wilt</span></br><em>Met 1 druk op de knop wordt je bestelling naar de bar of keuken gestuurd</em></p>
-                        <p><span class="text-orange font-weight-bold"><i class="fa fa-check"> </i> Verzoek om service</span></br><em>Roep de bediening met een druk op de knop</em></p>
-                        <p><span class="text-orange font-weight-bold"><i class="fa fa-check"> </i> Meld gemakkelijk dat je van tafel bent veranderd</span></br><em>Buiten borrelen en daarna binnen dineren? In een handomdraai regel je dat je rekening “meeverhuisd” naar je nieuwe
-								tafel
-							</em></p>
-                        <p><span class="text-orange font-weight-bold"><i class="fa fa-check"> </i> Bekijk je actuele rekening en geef eenvoudig door wanneer en hoe je wilt afrekenen</span></br><em>Heb altijd inzicht in hoeveel je al hebt besteed en reken eenvoudig af</em></p>
-                        <p class="p-mremove"><span class="text-orange font-weight-bold"><i class="fa fa-check"> </i> Beoordeel je bezoek</span></br><em>Laat weten wat je vindt van de service, ambiance en kwaliteit van wat je hebt gedronken/gegeten</em></p>
-
-                    </div>
+    
+    <!--- Registration -->
+    <section class="inner-site-section bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="section-title mb-5">Hebt u interesse om klant te worden van Atención? Vul
+                        dan onderstaand formulier in; wij nemen spoedig contact met uw op.</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <form action="#">
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="text-black" for="subject">Naam</label>
+                                <input type="subject" id="name" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="text-black" for="subject">Bedrijfsnaam</label>
+                                <input type="subject" id="subject" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-6 mb-3 mb-md-0">
+                                <label class="text-black" for="fname">E-mailadres</label>
+                                <input type="text" id="email" class="form-control">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="text-black" for="lname">Telefoonnummer</label>
+                                <input type="text" id="phone" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row form-group mb-5">
+                            <div class="col-md-12">
+                                <label class="text-black" for="message">Opmerkingen</label>
+                                <textarea name="message" id="message" cols="30" rows="7" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="submit" value="Verzenden" class="btn btn-primary btn-md text-white">
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-
-
-        <!--- Voor personeel-->
-        <section class="site-section orangebg">
-            <div class="container">
-                <div class="row text-white">
-                    <div class="col-md-5 ml-auto order-md-2 mb-4" data-aos="fade">
-                        <img src="images/waiter.png" alt="Image" class="img-fluid">
-                    </div>
-                    <div class="col-md-7 order-md-1" data-aos="fade">
-                        <div class="row">
-                            <div class="col-12 ml-auto">
-                                <h2 class="section-title mb-3 text-white">Voor personeel</h2>
-                                <p>De Atención personeelsapp stelt het personeel in staat om servicegerichter en efficiënter te werken. Door real-time inzicht in onder andere de workflow van bestellingen en serviceverzoeken kan het personeel zich op ieder
-                                    moment focussen op datgene dat de hoogste prioriteit heeft.
-                                </p>
-                                <p class="font-weight-bold">De Atención personeelsapp geeft:</p>
-                                <p><span class="font-weight-bold"><i class="fa fa-check"> </i> Real-time inzicht in de check-in status en besteding van gasten</span></br><em>Zie in 1 oogopslag welke gasten zijn ingecheckt en wat hun actuele rekening is</em></p>
-                                <p><span class="font-weight-bold"><i class="fa fa-check"> </i> Real-time inzicht in de workflow van bestellingen </span></br><em>Bekijk wat er besteld is, check de actuele status en krijg een melding wanneer een bestelling kan worden uitgeserveerd</em></p>
-                                <p class="p-mremove"><span class="font-weight-bold"><i class="fa fa-check"> </i> Real-time inzicht in de workflow van serviceverzoeken</span></br><em>Zie eenvoudig welke gasten een serviceverzoek of probleem hebben, of willen afrekenen</em></p>
-
-
-                            </div>
-                        </div>
-                        <div class="row pt-4">
-                            <div class="col-12">
-                                <a href="klant-worden.html" class="btn btn-primary btn-black--hover btn-blue shadow-none ml-1">ATENCIÓN EEN MAAND GRATIS UITPROBEREN</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </div>
-    </div>
     </section>
-
-
     <!--- Footer -->
     <footer class="site-footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="row">
-                        <div class="col-md-6 col-lg-3 mb-lg-0" style="margin-top: -20px">
+                        <div class="col-md-6 col-lg-3 mb-lg-0 mb-3" style="margin-top: -25px">
                             <div class="row mb-3">
                                 <div class="col-12">
                                     <a class="site-logo" href="index.html">
@@ -182,26 +165,14 @@
                                 <div class="col-12">
                                     <ul style="list-style: none; padding-left: 0">
                                         <li>
-
                                             <img src="./images/pin.png" alt="" class="pr-3 ">Dakotaweg 235,
                                             <p style="margin-left:40px">Capelle a/d IJssel</p>
-
                                         </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src="./images/phone.png" class="pr-3">+31 @@</br>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <img src="./images/envelop.png" class="pr-3">info@atencion.nl</br>
-                                            </a>
-                                        </li>
+                                        <li> <img src="./images/phone.png" class="pr-3">+31 @@</li>
+                                        <li><img src="./images/envelop.png" class="pr-3">info@atencion.nl</li>
                                     </ul>
-
                                 </div>
                             </div>
-
                         </div>
                         <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
                             <h2 class="footer-heading mb-4">Beoordelingen</h2>
@@ -211,7 +182,6 @@
                         </div>
                         <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
                             <h2 class="footer-heading mb-4">Sociale media</h2>
-
                             <a href="https://www.facebook.com/Atencionapp" target="_blank">
                                 <img src="./images/fb.png" alt="Facebook" class="pr-3 ">Facebook</br>
                             </a>
@@ -239,7 +209,8 @@
             <div class="row mt-5 text-center">
                 <div class="col-md-12">
                     <div class="border-top pt-5">
-                        <p>Copyright &copy;
+                        <p>
+                            Copyright &copy;
                             <script>
                                 document.write(new Date().getFullYear());
                             </script> Atención. All rights reserved.</a>
@@ -265,6 +236,8 @@
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
     <script src="js/main.js"></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
