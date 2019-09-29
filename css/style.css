@@ -158,6 +158,16 @@ h3 {
     box-shadow: 5px 6px 10px #cccccc;
 }
 
+.btn-blue {
+    background: #000046 !important;
+    border-color: #000046 !important;
+}
+
+.btn-blue:hover {
+    background: #1F1E1E !important;
+    border-color: #1F1E1E !important;
+    color: #fff;
+}
 .line-height-1 {
     line-height: 1 !important;
 }
@@ -289,7 +299,11 @@ h3 {
 .ul-check.primary li:before {
     color: #ffffff;
 }
+.ul-check-small li:before {
+    font-size: 20px;
+    top: -.30rem;
 
+}
 
 /* Navbar */
 
